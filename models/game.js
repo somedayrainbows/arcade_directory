@@ -2,9 +2,9 @@
 module.exports = (sequelize, DataTypes) => {
   const Game = sequelize.define('Game', {
     title: DataTypes.STRING,
-    price: DataTypes.INTEGER,
+    creator: DataTypes.STRING,
     releaseYear: DataTypes.INTEGER,
-    active: DataTypes.BOOLEAN
+    category: DataTypes.STRING
   }, {});
   Game.associate = function(models) {
     Game.belongsTo(models.Arcade)

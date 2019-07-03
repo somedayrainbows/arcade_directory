@@ -11,14 +11,14 @@ module.exports = {
       title: {
         type: Sequelize.STRING
       },
-      price: {
-        type: Sequelize.INTEGER
+      creator: {
+        type: Sequelize.STRING
       },
       releaseYear: {
         type: Sequelize.INTEGER
       },
-      active: {
-        type: Sequelize.BOOLEAN
+      category: {
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
