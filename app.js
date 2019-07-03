@@ -15,6 +15,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/api/v1/games', gamesRouter)
-
+app.use('/api/v1/games/:id', gamesRouter)
 
 module.exports = app;
