@@ -7,6 +7,7 @@ module.exports = {
       price: 100,
       releaseYear: 1981,
       active: true,
+      arcade:
       createdAt: new Date(),
       updatedAt: new Date()
     },
@@ -24,7 +25,7 @@ module.exports = {
       releaseYear: 1988,
       active: false,
       createdAt: new Date(),
-      updatedAt: new Date()      
+      updatedAt: new Date()
     }])
   },
 
